@@ -1,0 +1,113 @@
+﻿@font-face {
+    font-family: 'msjhbd';
+    src: url('../font/msjhbd.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input{
+    font-size: 20px;
+    font-family: Microsoft JhengHei,msjhbd;
+    padding: 5px;
+}
+input[type="text"]{
+    width:350px;
+    font-size:20px;
+}
+
+
+
+body{background-color: #fff9da ;}
+
+#caption{
+    width: 750px;
+    height: 80px;
+
+    margin:50px auto 0 ;
+
+    border-radius:10px 10px 0 0 ;
+    background-color: #f8c476;
+}
+#caption_header {
+    width: 750px;
+    height: 60px;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 22px;
+    font-weight:bold;
+    margin: 0 auto;
+    padding: 20px;
+
+
+    line-height:40px;
+    /*background-color: #FF9900;*/
+}
+
+
+#content{
+    width: 760px;
+    height: 500px;
+
+    margin:0 auto;
+
+    /*background-color: #FF9900;*/
+}
+
+#content_create {
+    width: 680px;
+    height: 300px;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 22px;
+    font-weight:500;
+    margin: 0 auto;
+    padding: 40px 35px;
+
+    line-height:60px;
+
+    background-color: #ffffff;
+}
+
+#content_button{
+    width: 240px;
+    height: 100px;
+
+    margin:0 auto ;
+    padding: 0 255px;
+
+    border-radius:0 0 10px 10px ;
+
+    background-color: #ffffff;
+}
+
+
+
+.btn {
+    width: 250px;
+    height: 60px;
+
+    border:#eee 1px solid;
+    border-radius: 6px;
+    line-height:60px;
+    margin-left:5px;
+
+    color: #000;
+    font-size: 20px;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+
+    float:left;
+
+    margin-bottom:10px;
+
+    cursor: pointer;
+    background-color: #f8c476;
+}
+    .btn:hover {background-color: #fab44b;}
+    .btn:active {background-color: #f7e2c3;}

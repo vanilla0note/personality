@@ -1,0 +1,285 @@
+﻿a{color:#0000FF;text-decoration:none;font-size: 17px;font-weight:bold;}
+
+@font-face {
+  font-family:'msjhbd';
+  src: url('../../../font/msjhbd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input[type="text"]{
+    width: 100px;
+    height:20px;
+    font-size: 15px;
+    font-family: Microsoft JhengHei;
+
+    margin:2px 0 0 4px;
+    padding:5px 7px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 12px 0 0 4px;
+}
+select{
+    width: 125px;
+    height: 33px;
+    font-size: 15px;
+    font-family: Microsoft JhengHei;
+
+    padding-left:5px;
+    padding-right:5px;
+}
+option:checked {color:red;}
+textarea{
+    width: 130px;
+    height: 26px;
+    font-size: 15px;
+    text-align:left;
+    font-family: Microsoft JhengHei;
+
+    margin:5px 0;
+    padding: 5px 5px 0 5px;
+}
+
+
+body{height:auto;}
+
+#caption{
+    width: 920px;
+    height: 100px;
+
+    margin:50px auto 0 ;
+
+    border-radius:10px 10px 0 0 ;
+    background-color: #f8c476;
+}
+#caption_header {
+    width: 920px;
+    height: 100px;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 22px;
+    font-weight:bold;
+    margin: 0 auto;
+    padding: 10px 20px 0 ;
+
+
+    line-height:80px;
+    /*background-color: #FF9900;*/
+}
+
+#content{
+    width: 920px;
+    height: auto;
+
+    margin:0 auto;
+
+    padding:20px 0 0 ;
+
+    background-color: #fefef9;
+}
+
+
+/* 作答人資料 */
+#exam{
+    width:920px;
+    height:500px;
+
+    margin:40px auto 10px;
+
+    /*background-color:#FF0000;*/
+
+    float:left;
+}
+#exam_title_all,#exam_title_run{
+    height:40px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:bold;
+    font-size:18px;
+    line-height:40px;
+
+    float:left;
+
+    background-color: #e8c591;
+}
+#exam_title_all{width:917px;}
+#exam_title_run{width:500px;}
+
+.interview_title,.interview_title2,.interview_title3,.interview_title4{
+    height:40px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:bold;
+    font-size:17px;
+    line-height:40px;
+
+    float:left;
+
+    background-color:#F7E7CE;
+}
+.interview_title{width:188px;background-color:#F7E7CE;}
+.interview_title2{width:130px;background-color:#F7E7CE;}
+.interview_title3{width:101px;background-color:#F7E7CE;}
+.interview_title4{width:92px;background-color:#FFDFDD;}
+
+.interview_txt, .interview_txt2,.interview_txt3,.interview_txt4,.interview_txt5{
+    height: 40px;
+
+    text-align: center;
+    border: #FFFFFF 2px solid;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+
+    float: left;    
+}
+.interview_txt{width:188px;background-color: #FFF8DC;}
+.interview_txt2{width:130px;background-color: #FFF8DC;}
+.interview_txt3{width:101px;background-color: #FFF8DC;}
+.interview_txt4{width:92px;background-color: #FFDFDD;}
+
+.interview_run{
+    width:500px;
+    height: 140px;
+
+    text-align: center;
+    border: #FFFFFF 2px solid;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+
+    margin-bottom:20px;
+
+    float: left;
+
+    background-color: #FFF8DC;
+}
+
+
+.dialog_type_title,.dialog_type_title2{
+    height:40px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-size:18px;
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:bold;
+    
+    line-height:40px;
+
+    float:left;   
+}
+.dialog_type_title{width:180px;background-color:#F7E7CE;}
+.dialog_type_title2{width:270px;font-size:18px;background-color:#92C7C7;}
+
+
+.dialog_type_content,.dialog_type_content2{    
+    border: #FFFFFF 2px solid;
+    font-family: Microsoft JhengHei,msjhbd;
+    
+    line-height: 40px;
+
+    float: left;
+}
+.dialog_type_content {width:180px;height:40px;font-size:18px;text-align:center;font-weight:bold;background-color:#FFF8DC;}
+.dialog_type_content2{width:250px;height:392px;font-size:16px;padding: 0 10px;text-align:left;font-weight: 500;background-color:#CCFFFF;}
+
+.send_report_title_all{
+    width:733px;
+    height:40px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-size:17px;
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:bold;
+        
+    line-height:40px;
+
+    float:left; 
+
+    background-color:#e8c591;
+}
+
+.send_report_title,.send_report_title2,.send_report_title3,
+.send_report_content,.send_report_content2,.send_report_content3{
+    height:40px;    
+    border:#FFFFFF 2px solid; 
+
+    font-size:17px;
+    font-family:Microsoft JhengHei,msjhbd;
+        
+    line-height:40px;
+
+    float:left;        
+}
+.send_report_title{width:180px;text-align:center;font-weight:bold;background-color:#F7E7CE; }
+.send_report_title2{width:364px;text-align:center;font-weight:bold;background-color:#F7E7CE; }
+.send_report_title3{width:550px;text-align:center;font-weight:bold;background-color:#F7E7CE; }
+.send_report_content{width:180px;text-align:center;font-weight:500;background-color:#FFF8DC;}
+.send_report_content2{width:344px;text-align:left;padding-left:20px;font-weight:500;background-color:#FFF8DC;}
+.send_report_content3{width:530px;text-align:left;padding-left:20px;font-weight:500;background-color:#FFF8DC;}
+
+
+
+.space {
+    width: 916px;
+    height: 20px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+
+.btn {
+    width: 200px;
+    height: 35px;
+
+    border:#eee 1px solid;
+    border-radius: 6px;
+    line-height:35px;
+
+    color: #000;
+    font-size: 17px;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+    margin: 0 5px 0 20px;
+    float:left;
+
+    cursor: pointer;
+    background-color: #FFE5B4;
+}
+    .btn:hover {background-color: #FDD017;}
+    .btn:active {background-color: #FFF8C6;}
+
+.btn_close {
+    width: 200px;
+    height: 35px;
+
+    border:#eee 1px solid;
+    border-radius: 6px;
+    line-height:35px;
+
+    color: #bbbbbb;
+    font-size: 17px;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+    margin: 0 5px 0 18px;
+    float:left;
+
+    cursor: no-drop;
+    background-color: #ece7df;
+}

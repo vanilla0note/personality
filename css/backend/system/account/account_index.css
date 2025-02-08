@@ -1,0 +1,256 @@
+﻿a{color:#0000FF;text-decoration:none;font-size: 17px;font-weight:bold;}
+tt{color:#000000;font-family: Microsoft JhengHei;font-size: 17px;text-decoration:none;font-weight:600;}
+#nums{font-family: Microsoft JhengHei;font-size: 18px;font-weight:bold;padding-left:20px;}
+
+@font-face {
+  font-family:'msjhbd';
+  src: url('../../../font/msjhbd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+
+    margin-top:12px;
+}
+input[type="text"],input[type="password"]{
+    width: 210px;
+    height:35px;
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+
+    padding:0 5px;
+}
+select{
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+
+    padding-left:5px;
+    padding-right:5px;
+}
+
+body{background-color: #fff9da ;}
+
+#caption{
+    width: 865px;
+    height: 100px;
+
+    margin:50px auto 0 ;
+
+    border-radius:10px 10px 0 0 ;
+    background-color: #f8c476;
+}
+#caption_header {
+    width: 865px;
+    height: 100px;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 22px;
+    font-weight:bold;
+    margin: 0 auto;
+    padding: 10px 20px 0 ;
+
+
+    line-height:80px;
+    /*background-color: #FF9900;*/
+}
+
+
+#content{
+    width: 840px;
+    /*height: 400px;*/
+
+    margin:0 auto;
+
+    padding:20px 0 0 25px;
+
+    background-color: #fefef9;
+}
+
+#search{
+    width:700px;
+    height:220px;
+    text-align:left;
+    border:#eee 1px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:20px;
+    line-height:60px;
+    font-weight:normal;
+
+    padding:5px 40px 0 25px;
+    border-radius:7px;
+    background-color:#f5dfc9;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.1);
+    margin:0 25px;
+}
+
+#result{
+    width:840px;
+    /*height:200px;*/
+    text-align:left;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:20px;
+    line-height:60px;
+    font-weight:normal;
+
+    /*background-color:#FF0000;*/
+
+    padding:5px 10px 0 2px;
+    margin:0 auto;
+}
+
+
+.personality_title,.personality_title2{
+    height:45px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:bold;
+    font-size:18px;
+    line-height:45px;
+
+    float:left;
+
+    background-color:#f5dfc9;
+
+}
+.personality_title{width:100px;}
+.personality_title2{width:145px;}
+
+.personality_txt,.personality_txt2,.personality_txt3{
+    height:45px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:500;
+    font-size:17px;
+    line-height:45px;
+
+    float:left;
+
+    background-color:#f8f1e9;
+
+}
+.personality_txt{width:100px;}
+.personality_txt2{width:145px;}
+
+
+#pages{
+    width:558px;
+    height:100px;
+
+    text-align:center;
+    line-height:90px;
+
+    margin:10px auto 10px ;
+    clear:left;
+
+    /*background-color:#00FF00;*/
+}
+.pages_box{
+    width:60px;
+    height:40px;
+    text-align:center;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:17px;
+    font-weight:bold;
+    line-height:40px;
+
+    border:#eee 1px solid;
+    float:left;
+
+    background-color:#f1dfcd;
+}
+    .pages_box:hover {background-color: #fab44b;}
+    .pages_box:active {background-color: #f7e2c3;}
+    .pages_box a{color:#0000FF;}
+
+
+.btn {
+    width: 150px;
+    height: 40px;
+
+    border:#eee 1px solid;
+    border-radius: 6px;
+    line-height:40px;
+    margin-left:5px;
+
+    color: #000;
+    font-size: 20px;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+
+    float:left;
+
+    margin-bottom:10px;
+
+    cursor: pointer;
+    background-color: #f8c476;
+}
+
+.btn_create,.btn_edit {
+    border:#eee 1px solid;
+    border-radius: 6px;
+    margin-left:5px;
+
+    color: #000;
+    font-size: 18px;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+
+    float:left;
+
+    margin-bottom:10px;
+
+    cursor: pointer;
+    background-color: #f8c476;
+}
+    .btn:hover,.btn_create:hover,.btn_edit:hover {background-color: #fab44b;}
+    .btn:active,.btn_create:active,.btn_edit:active {background-color: #f7e2c3;}
+
+    .btn_create{width: 150px;height: 40px;line-height:40px;font-size: 18px;}
+    .btn_edit  {width: 80px;height: 32px;line-height:32px;font-size: 17px;margin:6px 10px;}
+
+.btn_acc_enable,.btn_acc_disable {
+    width: 75px;
+    height: 30px;
+    line-height:30px;
+    
+    font-size: 14px;
+    margin:7px 0px 0px 14px;
+
+    border:#eee 1px solid;
+    border-radius: 20px;
+
+    
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+
+    float:left;
+
+    margin-bottom:10px;
+
+    cursor: pointer;
+    
+}
+    .btn_acc_enable:active,.btn_acc_disable:active {background-color: #FFCBA4;}
+
+    .btn_acc_enable  {color: #437C17;background-color: #CCFB5D;}
+    .btn_acc_disable {color: #999;background-color: #E5E4E2;}

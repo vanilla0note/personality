@@ -1,0 +1,21 @@
+﻿@font-face {
+  font-family:'msjhbd';
+  /*src: url('../../../font/msjhbd.ttf');*/
+  font-weight: normal;
+  font-style: normal;
+}
+body{height:auto;}
+
+#dialog {
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+    padding: 40px 0 0 20px ;
+}
+
+
+
+.ui-dialog .ui-dialog-title {font-family: Microsoft JhengHei,msjhbd;letter-spacing: 2px;font-weight:bold;}
+.ui-dialog .ui-dialog-buttonpane button {font-family: Microsoft JhengHei,msjhbd;}

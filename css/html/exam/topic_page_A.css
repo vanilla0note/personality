@@ -1,0 +1,190 @@
+﻿label{font-size: 24px;font-family: Microsoft JhengHei,msjhbd}
+pp{color:#f00;font-family: Microsoft JhengHei,msjhbd;font-size:17px;font-weight:bold;}
+tt{color:#000;font-family: Microsoft JhengHei,msjhbd;font-size:17px;font-weight:bold;}
+
+
+@font-face {
+    font-family: 'msjhbd';
+    src: url('../font/msjhbd.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+input{
+    font-size: 20px;
+    font-family: Microsoft JhengHei,msjhbd;
+    padding: 5px;
+}
+input[type="text"]{
+    width:200px;
+    font-size:19px;
+}
+#content_profile_from > [type="text"] {
+    width:340px;
+
+}
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+textarea{width: 435px; height:80px;font-size:19px;font-weight:normal;font-family:Microsoft JhengHei,msjhbd;}
+
+
+body{   
+    background-color: #fff9da ;
+
+}
+
+#caption{
+    width: 920px;
+    height: 200px;
+
+    margin:50px auto 0 ;
+
+    border-radius:10px 10px 0 0 ;
+    background-color: #f8c476;
+
+
+}
+#caption_header {
+    width: 920px;
+    height: 200px;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 22px;
+    font-weight:bold;
+    margin: 0 auto;
+    padding: 10px 20px 0 ;
+
+
+    line-height:40px;
+    /*background-color: #FF9900;*/
+
+}
+#progress{
+    width:800px;
+    height:20px;
+
+    line-height:20px;
+
+    padding-top:20px;
+
+    /*background-color:#00F;*/
+}
+#progress_title{
+    width:170px;
+
+    float:left;
+
+    /*background-color:#F00;*/
+}
+#progress_bar{
+    width:600px;
+    height:20px;
+
+    float:left;
+
+    border-radius:5px;
+    /*background-color:#F00;*/
+}
+
+
+
+
+
+#content{
+    width: 920px;
+    height: 1200px;
+
+    margin:10px auto 0 ;
+
+    /*background-color: #FF9900;*/
+}
+.content_answering {
+    width: 910px;
+    height: 40px;
+
+    float:left;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 20px;
+    font-weight:500;
+    letter-spacing:-1px;
+    margin: 0 auto 10px;
+    padding: 35px 5px;
+
+    background-color: #fff;
+}
+.content_question {
+    width: 735px;
+    height: 40px;
+
+    float:left;
+
+    line-height:40px;
+    font-weight:bold;
+
+    /*background-color: #ff0;*/
+}
+.content_button{
+    width: 145px;
+    height: 40px;
+
+    float:left;
+
+    line-height:40px;
+
+    /*background-color: #00f;*/
+}
+
+
+#page_btn {
+    width: 920px;
+    height: 60px;
+
+    color: #333;
+    text-align: center;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 20px;
+    font-weight:bold;
+    margin: 0 auto 50px ;
+    padding: 20px 0 ;
+
+    line-height:60px;
+
+    border-radius:0 0 10px 10px;
+
+    background-color: #f8c476;
+}
+
+
+.btn {
+    width: 150px;
+    height: 50px;
+
+    border:#eee 1px solid;
+    border-radius: 6px;
+    line-height:50px;
+    margin-left:5px;
+
+    color: #000;
+    font-size: 20px;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+
+    
+
+    margin-bottom:10px;
+
+    cursor: pointer;
+    background-color: #FFEBCD;
+}
+    .btn:hover {background-color: #fab44b;}
+    .btn:active {background-color: #f7e2c3;}

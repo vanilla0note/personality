@@ -1,0 +1,195 @@
+﻿a{color:#0000FF;text-decoration:none;font-size: 17px;font-weight:bold;}
+
+
+@font-face {
+  font-family:'msjhbd';
+  src: url('../../../font/msjhbd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input[type="text"],input[type="password"]{
+    width: 300px;
+    height:30px;
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+
+    border: 0px white;
+    border-bottom: 1px solid black;
+    outline: none;
+
+    padding:5px 7px;
+}
+
+body{background-color: #fff9da;}
+label{line-height:0px;vertical-align:middle;}
+
+
+#caption{
+    width: 785px;
+    height: 100px;
+
+    margin:50px auto 0 ;
+
+    border-radius:10px 10px 0 0 ;
+    background-color: #f8c476;
+}
+#caption_header {
+    width: 805px;
+    height: 100px;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 22px;
+    font-weight:bold;
+    margin: 0 auto;
+    padding: 10px 20px 0 ;
+
+
+    line-height:80px;
+    /*background-color: #FF9900;*/
+}
+
+
+#content{
+    width: 757px;
+    height: 500px;
+
+    margin:0 auto;
+
+    padding:20px 15px 0 15px;
+
+    background-color: #fefef9;
+}
+
+
+#mail_result{
+    width:650px;
+    height:390px;
+    text-align:left;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:20px;
+    line-height:60px;
+    font-weight:normal;
+
+    margin:0 auto;
+    padding:0 0 0 20px;
+
+
+    /*background-color:#FF0000;*/
+}
+
+#mail_title_all{
+    width:630px;
+    height:40px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:bold;
+    font-size:18px;
+    line-height:40px;
+
+    float:left;
+
+    background-color: #e8c591;
+}
+.mail_directions{
+    width:630px;
+    height:40px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:500;
+    font-size:17px;
+    line-height:40px;
+
+    float:left;
+
+    background-color: #f8f1e9;
+}
+
+.mail_title,.mail_title2{
+    height:50px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:bold;
+    font-size:20px;
+    line-height:50px;
+
+    float:left;
+
+    background-color:#f5dfc9;
+
+}
+.mail_title{width:250px;}
+.mail_title2{width:150px;}
+
+.mail_txt,.mail_txt2{
+    height:50px;
+    text-align:left;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:500;
+    font-size:20px;
+    line-height:50px;
+    padding: 0 0 0 15px;
+
+    float:left;
+
+    background-color:#f8f1e9;
+
+}
+.mail_txt{width:360px;}
+.mail_txt2{width:150px;}
+
+.space {
+    width: 630px;
+    height: 20px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+
+
+#button {
+    width: 650px;
+    height: 60px;
+    text-align: center;
+
+    margin: 0 auto ;
+    float: none;
+
+    /*background-color:#00FF00;*/
+}
+.btn {
+    width:120px;
+    height: 35px;
+    border:#eee 1px solid;
+    border-radius: 6px;
+ 
+    color: #000;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight:bold;
+    line-height:35px;
+
+    float:left;
+
+    background-color: #f8c476;
+    cursor: pointer;
+
+}
+    .btn:hover {background-color: #fab44b;}
+    .btn:active {background-color: #f7e2c3;}
+
+
+

@@ -1,0 +1,212 @@
+﻿p{color:#000;font-family: Microsoft JhengHei,msjhbd;font-size:17px;font-weight:500;text-align:right;}
+@font-face {
+  font-family:'msjhbd';
+  src: url('fonts/msjhbd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+body{background-color:#fff9da;}
+input[type="text"],input[type="password"]{
+    width:220px;
+
+    font-size:20px;
+    font-weight:500;
+    font-family:Microsoft JhengHei;
+    padding:5px;
+}
+select{
+    width:235px;
+
+    font-size:20px;
+    font-family:Microsoft JhengHei;
+    padding:5px;
+}
+hr{border-top: 1px dashed;}
+
+#page-main {
+    width:564px;
+    height:600px;
+
+    margin:0 auto;    
+
+    /*background-color:#FF0000;*/
+}
+#member_bot{    
+    width:564px;
+    height:600px;
+    
+    margin:100px auto 0 ;
+
+    background-image:url('../img/member_bot.png');
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    padding: 45% 0 ;
+}
+
+#login_title {
+    width: 500px;
+    height: 50px;
+
+    float: left;
+    
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 22px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    line-height: 50px;
+    text-align:center;
+    
+    padding: 0 0 0 25px;
+
+    margin: -170px 15px;
+    /*background-color: #FFFF00;*/
+
+    /*
+    -moz-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    -webkit-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+        */
+}
+#login_content{
+    width: 460px;
+    height:370px;
+        
+    margin:0 12px;
+    float:left;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:20px;
+    font-weight:normal;
+    letter-spacing: 2px;
+    line-height:30px;
+    padding:25px 0 0 50px;
+
+    margin:-90px 12px 0;
+    /*background-color:#00FFFF;*/
+
+}
+.login_content_avatar{
+    margin-top:2px;
+    float:left;
+}
+.login_content_title{
+    width: 155px;
+    height:50px;
+
+    line-height:50px;
+    float:left;
+
+    /*background-color:#00FF00;*/
+}
+.login_content_btn{
+    width: 240px;
+    height:50px;
+
+    line-height:50px;
+    float:left;
+
+    /*background-color:#FF0000;*/
+}
+
+
+
+#backend {
+    width: 465px;
+    height: 30px;
+    margin: 0 14px;
+    float: left;
+    
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 15px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align:left;
+    
+    padding: 0 0 0 20px;
+
+    margin-top:-50px;
+    /*background-color: #FFFF00;*/
+}
+#backend_img{width: 35px;float:left;}
+#backend_text {
+    width: 65px;
+    line-height: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+    float: left;
+}
+
+
+
+#eip_cc {
+    width: 465px;
+    height: 30px;
+    margin: 0 14px;
+    float: left;
+    
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 15px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align:left;
+    
+    padding: 0 0 0 20px;
+
+    margin-top:-25px;
+    /*background-color: #FF0000;*/
+}
+
+
+.btn {
+    width: 220px;
+    height: 50px;
+
+    border:#eee 1px solid;
+    border-radius: 6px;
+    line-height:50px;
+    margin-left:5px;
+
+    color: #000;
+    font-size: 20px;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+
+    float:left;
+
+    margin-bottom:10px;
+
+    cursor: pointer;
+    background-color: #f8c476;
+}
+    .btn:hover {background-color: #fab44b;}
+    .btn:active {background-color: #f7e2c3;}
+
+.btn_close {
+    width: 220px;
+    height: 50px;
+
+    border:#eee 1px solid;
+    border-radius: 6px;
+    line-height:50px;
+    margin-left:5px;
+
+    color: #aaa;
+    font-size: 20px;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+
+    float:left;
+
+    margin-bottom:10px;
+
+    cursor: no-drop;
+    background-color: #E5E4E2;
+}

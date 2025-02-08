@@ -1,0 +1,155 @@
+﻿a{color:#0000FF;text-decoration:none;font-size: 17px;font-weight:bold;}
+tt{color:#000000;font-family: Microsoft JhengHei;font-size: 18px;text-decoration:none;font-weight:500;}
+#nums{font-family: Microsoft JhengHei;font-size: 18px;font-weight:bold;padding-left:20px;}
+
+@font-face {
+  font-family:'msjhbd';
+  src: url('../../../font/msjhbd.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input[type="text"]{
+    width: 280px;
+    height:35px;
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+
+    padding:0 5px;
+}
+select{
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Microsoft JhengHei;
+
+    padding:5px;
+}
+
+body{background-color: #fff9da ;}
+
+#caption{
+    width: 785px;
+    height: 100px;
+
+    margin:50px auto 0 ;
+
+    border-radius:10px 10px 0 0 ;
+    background-color: #f8c476;
+}
+#caption_header {
+    width: 805px;
+    height: 100px;
+
+    color: #333;
+    text-align: left;
+    font-family: Microsoft JhengHei,msjhbd;
+    font-size: 22px;
+    font-weight:bold;
+    margin: 0 auto;
+    padding: 10px 20px 0 ;
+
+
+    line-height:80px;
+    /*background-color: #FF9900;*/
+}
+
+
+#content{
+    width: 757px;
+    height: 700px;
+
+    margin:0 auto;
+
+    padding:20px 15px 0 15px;
+
+    background-color: #fefef9;
+}
+
+
+
+#result{
+    width:700px;
+    height:650px;
+    text-align:left;
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-size:20px;
+    line-height:60px;
+    font-weight:normal;
+
+    /*background-color:#FF0000;*/
+    
+    margin:0 auto 20px;
+}
+
+
+.personality_main_title{
+    width:695px;
+    height:50px;
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:bold;
+    font-size:20px;
+    line-height:50px;
+
+    margin:0 auto;
+
+    background-color:#F3CAA1;
+
+}
+.personality_sub_title1,.personality_sub_title2,.personality_sub_content1,.personality_sub_content2{
+   
+    text-align:center;
+    border:#FFFFFF 2px solid; 
+
+    font-family:Microsoft JhengHei,msjhbd;
+    font-weight:bold;
+    font-size:20px;
+    
+    margin:0 auto;
+
+    background-color:#f5dfc9;
+
+    float:left;
+
+}
+.personality_sub_title1{width:240px;height:50px;line-height:50px;}
+.personality_sub_title2{width:240px;height:180px;line-height:50px;padding:20px 0 0 0;}
+.personality_sub_content1{width:451px;height:50px;line-height:50px;}
+.personality_sub_content2{width:431px;height:195px;line-height:200px;padding:5px 0 0 20px;}
+
+
+#button {
+    width: 340px;
+    height: 80px;
+    text-align: center;
+
+    margin: 0 auto ;
+    float: none;
+
+    /*background-color:#00FF00;*/
+}
+.btn,.btn_create {
+    border:#eee 1px solid;
+    border-radius: 6px;
+ 
+    color: #000;
+    font-family: Microsoft JhengHei,msjhbd;
+    text-align:center;
+    letter-spacing: 1px;
+    font-weight:bold;
+
+    float:left;
+
+    cursor: pointer;
+
+}
+    .btn:hover,.btn_create:hover {background-color: #fab44b;}
+    .btn:active,.btn_create:active {background-color: #f7e2c3;}
+
+    .btn{width:150px;height: 40px;line-height:40px;font-size: 20px;float:right;background-color: #f8c476;}
+    .btn_create{width:100px;height: 40px;line-height:40px;font-size:18px;float:right;margin-top:4px;background-color: #F3E3C9;}
+
